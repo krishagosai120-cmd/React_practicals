@@ -1,0 +1,57 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f5f9;
+}
+
+.app {
+  padding: 30px;
+  text-align: center;
+}
+
+header {
+  background: #243b64;
+  color: white;
+  padding: 25px;
+  border-radius: 12px;
+  margin-bottom: 30px;
+}
+
+.workshop-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.workshop-card {
+  background: white;
+  width: 280px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px #00000015;
+  text-align: left;
+}
+
+.workshop-card h2 {
+  color: #243b64;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  background: #315da8;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1d417d;
+}
+
+button:disabled {
+  background: #999;
+  cursor: not-allowed;
+}
